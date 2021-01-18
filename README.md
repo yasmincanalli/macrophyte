@@ -1,19 +1,8 @@
 # Titan for macrophytes
 
-\ 
-
-***
-
-\ 
-
 ## Titan analyse
 
 We derived species and community response thresholds to depth and transparency applying the Threshold Indicator Taxa ANalysis (TITAN). This analysis detects simultaneous changes in abundance and frequency and correlates with abiotic data. The method uses the **Indicator Values** (IndVal; Dufrêne and Legendre, 1997) to describe species’ associations with the environmental gradient. IndVal is an index which the maximum value is retrieved when all individuals of a species is in the same group and in all sites of this group. TITAN’s innovation is the partition of the abiotic variation to search the maximum IndVal per group, and provides information for the community and each species. Communities can respond negatively (Z-) or positively (Z+) to the environmental gradient and the change points can show a **non-linear response for the community**. The result expresses **purity** (bootstrap of response directionality) and **reliability** (bootstrap of IndVal), both as an index of uncertainty of the location of the taxa and community change points. We utilized **1000 bootstraps** and **confidence intervals of 5% and 95%**, **purity and reliability indices > 0.95**. Species with less than five occurrences in the dataset were removed due to method limitations (see Baker and King, 2010). The analyzes were performed in the 'TITAN2' package (Baker, King and Kahle, 2019) in the **R environment** (R Core Team, 2020).
-\ 
-
-***
-
-\ 
 
 ## Data
 
