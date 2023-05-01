@@ -7,7 +7,7 @@ Yasmin Canalli, Bruno E. Soares, and Cássia M. Sakuragui
 Marine and Freshwater Research 74(2) 157-163 https://doi.org/10.1071/MF22097
 
 ## To cite this data
-Data and R coding available in Zenodo: XXXX.
+Data and R coding available in GitHub: XXXX.
 Cite as: XXX
 
 ## Description
@@ -17,7 +17,7 @@ Data and R coding to analyze the response of macrophytes to variation in transpa
 In R, you may download all the data contained in this repository by using the download.file() function, then use the function unzip(). Example:
 
 `
-download.file(url="https://github.com/bruno-soares/MS_MacrophyteThresholds/archive/master.zip", destfile = "MS_MacrophyteThresholds.zip")
+download.file(url="github.com/yasmincanalli/macrophyte", destfile = "MS_MacrophyteThresholds.zip")
 `
 
 `
