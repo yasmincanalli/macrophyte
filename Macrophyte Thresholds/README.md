@@ -4,7 +4,7 @@
 Yasmin Canalli, Bruno E. Soares, and Cássia M. Sakuragui
 
 ## Published in
-Accepted in Marine & Freshwater Research.
+Marine and Freshwater Research 74(2) 157-163 https://doi.org/10.1071/MF22097
 
 ## To cite this data
 Data and R coding available in Zenodo: XXXX.
