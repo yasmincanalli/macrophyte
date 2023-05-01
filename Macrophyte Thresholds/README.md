@@ -14,14 +14,11 @@ Cite as: XXX
 Data and R coding to analyze the response of macrophytes to variation in transparency and depth in a Atlantic Forest wetland. These results are discussed in the manuscript  "Increasing depth reduces macrophyte coverage but increasing transparency promotes composition turnover through environmental thresholds", accepted for publication in Marine & Freshwater Research.
 
 ## How to use this directory
-In R, you may download all the data contained in this repository by using the download.file() function, then use the function unzip(). Example:
+In R, you may download all the data contained in this repository by using the download.file() function. Example:
 
 `
-download.file(url="github.com/yasmincanalli/macrophyte", destfile = "MS_MacrophyteThresholds.zip")
-`
+download.file(url="github.com/yasmincanalli/macrophyte", destfile = "Macrophyte Thresholds")
 
-`
-unzip(zipfile = "MS_MacrophyteThresholds.zip")
 `
 
 Analysis is summarized in a single R script. All the data necessary to run analyses are availagle in /data. In this example, we used 100 permutations for all analysis for examplifying the coding, but published analysis used 1,000 permutations.
